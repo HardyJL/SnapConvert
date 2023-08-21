@@ -1,4 +1,4 @@
-package com.hardy.org.snap_convert
+package com.asalift.alap.customer_eye_check
 
 import io.flutter.embedding.android.FlutterActivity
 
