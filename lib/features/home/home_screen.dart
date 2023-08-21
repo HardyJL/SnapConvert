@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    CupertinoPageRoute(
+                    CupertinoPageRoute<Widget>(
                       builder: (context) => TextConversionScreen(),
                     ),
                   );
@@ -47,7 +47,7 @@ class HomeScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    CupertinoPageRoute(
+                    CupertinoPageRoute<Widget>(
                       builder: (context) => const OCRConversionScreen(),
                     ),
                   );

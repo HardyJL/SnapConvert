@@ -6,6 +6,7 @@ class OCRConversionScreen extends StatefulWidget {
   const OCRConversionScreen({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _OCRConversionScreenState createState() => _OCRConversionScreenState();
 }
 
