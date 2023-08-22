@@ -1,4 +1,7 @@
+import 'dart:developer';
+
 import 'package:flutter/cupertino.dart';
+import 'package:snap_convert/features/shared/exchange_rates.dart';
 
 class TextConversionScreen extends StatelessWidget {
   TextConversionScreen({super.key});
@@ -67,8 +70,9 @@ class TextConversionScreen extends StatelessWidget {
                   Expanded(
                     child: CupertinoButton(
                       child: const Text('Convert'),
-                      onPressed: () {
-                        // Logic to convert currency goes here
+                      onPressed: () async {
+                        final result = await fetchAllCurrencies();
+                        log(result.toString());
                       },
                     ),
                   ),

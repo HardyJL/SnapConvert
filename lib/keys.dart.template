@@ -1,0 +1,5 @@
+// Rename this file to keys.dart and fill in the appropriate values
+
+const String openExchangeRatesApiKey = 'YOUR_OPEN_EXCHANGE_RATES_API_KEY_HERE';
+
+
